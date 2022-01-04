@@ -2143,7 +2143,7 @@ Description: Global responsive styles
   body .container,
   body .slider-nav,
   .post-area.standard-minimal.full-width-content .post .inner-wrap {
-    max-width: 420px;
+    width: 100%;
   }
 
 

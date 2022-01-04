@@ -455,7 +455,68 @@ body.home .chimpy_lite_signup_success, body.home .chimpy_lite_signup_error, body
 100% { -webkit-transform: translate3d(0px,0px,0); -webkit-animation-timing-function: ease-out; }
 }
 </style><link rel="stylesheet" href="./index_files/continually-embed.latest.min.css"><link rel="stylesheet" href="./index_files/custom.css"></head><body data-rsssl="1" class="page-template page-template-template-contact page-template-template-contact-php page page-id-37 ascend wpb-js-composer js-comp-ver-5.2.4 vc_responsive" data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="default" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic" data-cad="750" data-megamenu-width="contained" data-aie="none" data-ls="magnific" data-apte="standard" data-hhun="0" data-fancy-form-rcs="default" data-form-style="minimal" data-form-submit="regular" data-is="minimal" data-button-style="default" data-user-account-button="false" data-header-inherit-rc="false" data-header-search="true" data-animated-anchors="true" data-ajax-transitions="false" data-full-width-header="false" data-slide-out-widget-area="true" data-slide-out-widget-area-style="slide-out-from-right" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="false" data-responsive="1" data-ext-responsive="true" data-ext-padding="90" data-header-resize="0" data-header-color="light" data-transparent-header="false" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false" style="--scroll-bar-w: 13px;">
-	
+	<div class="demo-header-wrapper">
+		<div class="demo-header" style="height: 46px;
+			background-color: #0D0D77;
+			padding: 6px;
+			width: 60%;
+			max-width: 1000;
+			margin: 0 auto;
+			border-radius: 0px 0px 5px 5px;
+			border: 1px solid #0D0D77;
+			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-top: none;
+			box-sizing: border-box;">
+			<span id="cta-text" style="color: white; line-height: 35px; font-family: sans-serif; font-size: 18px;line-height: 20px;">Get this bot for free</span>
+			<img style="margin:0 20px 0 20px;" src="./index_files/arrow_right_alt-24px.svg">
+			<a href="https://app.hiver.io/dashboard/bot/?ob_src=demo" target="_blank"  id="login-link">
+				<button style="padding: 1px 20px; font-size: 17px; font-weight: bold; border-radius: 5px;background-color: white; border: none; color: #0D0D77;">Sign&nbsp;up</button>
+			</a>
+		</div>
+	</div>	
+		<style>
+.demo-header-wrapper {
+	position: fixed;
+    z-index: 10000000;
+    top: 0;
+    left: 0;
+    right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+		#login-link button:hover {
+			cursor: pointer;
+		}
+			@media (max-width:800px) {
+			.demo-header {
+				width: 100% !important;
+				border: none;
+				border-radius: 0px;
+			}
+
+			#cta-text {
+				font-size: 16px;
+				line-height: normal;
+			}
+		}
+			@media (max-width:470px) {
+			.demo-header {
+				height: 70px;
+				width: 100% !important;
+				border: none;
+				border-radius: 0px;
+			}
+
+			#cta-text {
+				font-size: 16px;
+				line-height: normal;
+			}
+		}
+	</style>
 	<script type="text/javascript">
 	 (function(window, document) {
 
